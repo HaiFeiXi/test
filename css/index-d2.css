@@ -1,0 +1,98 @@
+.d21{
+    height: 550px;
+}
+.d22{
+    position: relative;
+    margin-top: 75px;
+    height: 60px;
+}
+.s23{
+    position: absolute;
+    left: 110px;
+    display: inline-block;
+    width: 500px;
+    border: 1px solid rgb(97, 97, 255);
+    top: 35px;
+}
+.s24{
+    position: absolute;
+    min-width: 200px;
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(63, 29, 171);
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 5px;
+    left: 680px;
+}
+.s25{
+    position: absolute;
+    left: 900px;
+    display: inline-block;
+    width: 500px;
+    border: 1px solid rgb(97, 97, 255);
+    top: 35px;
+}
+.d26{
+    position: relative;
+    height: 400px;
+}
+
+.d26 p{
+    position: absolute;
+    top: 50px;
+    left: 280px;
+    font-family: 黑体;
+    min-width: 1000px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+}
+.d26s0{
+    font-size: 22px;
+    color: rgb(97, 97, 255);
+}
+
+.d26s1{
+    color: rgb(97, 97, 255);
+}
+.d26s2{
+    color: rgb(97, 97, 255);
+}
+.d26s3{
+    color: rgb(97, 97, 255);
+}
+.d26s{
+    color: rgb(97, 97, 255);
+}
+
+
+
+
+.d27{
+    position: relative;
+    top: 60px;
+    width: 950px;
+    margin: 0 auto;
+    border: 1px solid rgb(225, 225, 225);
+    height: 550px;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 2px 2px 2px rgb(237, 236, 236),-2px 2px 2px rgb(237, 236, 236),2px -2px 2px rgb(237, 236, 236),-2px -2px 2px rgb(237, 236, 236);
+}
+.i28{
+    margin-top: 70px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+.d29{
+    width: 600px;
+    position: relative;
+    text-align: left;
+    left: 320px;
+    bottom: 350px;
+    border: 1px solid black;
+    color: rgb(47, 34, 182);
+}

@@ -1,0 +1,67 @@
+.d31{
+    height: 900px;
+}
+.d31 table{
+    margin-top: 40px;
+    padding: 10px;
+    
+}
+.d31 table td{
+    cursor: pointer;
+    padding: 10px;
+}
+.p3{
+    padding: 5px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(63, 29, 171);
+    font-family: 黑体;
+    margin-top: 10px;
+    border-bottom: 2px solid rgba(84, 86, 88, 0.5);
+}
+
+.d32{
+    position: relative;
+    border: 2px solid  rgba(76, 74, 74, 0.2);
+    border-radius: 20px;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+.d32:hover{
+    box-shadow: 0 16px 32px 0 rgba(48, 55, 66, 0.15);/* 鼠标悬浮时盒子出现的阴影 */
+	transform: translate(0, -20px);/* 鼠标悬浮时盒子上移10px */
+}
+
+.d33 img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.d34{
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.s31{
+    display: block;
+    font-family: "黑体";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+   
+}
+
+.s32{
+    margin-left: 15px;
+    color: rgb(15, 82, 176);
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.a1{
+    cursor: pointer;
+    margin-left: 1360px;
+}

@@ -1,0 +1,64 @@
+body{
+    background-color: #eeecec;
+}
+
+.d1{
+    height: 720px;
+    border: 1px solid black;
+}
+.d2{
+    height: 100px;
+    background: url("../images/jieshao背景图.png") center / 100% 100%;
+    border: 1px solid black;
+}
+.d21{
+    padding-left: 400px;
+    font-size: 28px;
+    color: rgb(60, 46, 170);
+}
+.d22{
+    font-size: 20px;
+    color: rgb(80, 80, 230);
+    padding-left: 400px;
+}
+.d3{
+    background-color: #fff;
+    width: 800px;
+    margin: 0 auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: 2px solid rgba(62, 61, 61, 0.2);
+    border-right: 2px solid rgba(62, 61, 61, 0.2);
+    border-bottom: 2px solid rgba(62, 61, 61, 0.2);
+    padding: 10px;
+}
+.d31{
+    width: 800px;
+}
+.d32{
+    display: inline-block;
+    width: 550px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 18px;
+    
+}
+
+.d33{
+    position: absolute;
+    top: 200px;
+    margin-left: 5px;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+
+}
+
+.d34{
+    width: 800px;
+    margin: 0 auto;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 18px;
+    
+}

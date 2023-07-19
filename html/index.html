@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南昌旅游网</title>
+    <link rel="stylesheet" type="text/css" href="../css/index-d1.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d2.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d3.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d4.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d5.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d6.css">
+    <link rel="stylesheet" type="text/css" href="../css/index-d7.css">
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="d11">
+        <div class="d12">
+            <div class="d13"><img src="../images/logo.png" width="200px" height="150px"></div>
+            <div class="d14">
+                <ul class="u1">
+                    <li><a href="index.html"><img src="../images/1.2.png" width="20px" height="20px">首页</a></li>
+                    <li><a href="jieshao.html" target="_blank"><img src="../images/1.3.png" width="20px" height="20px">介绍</a></li>
+                    <li><a href="fengjing.html" target="_blank"><img src="../images/1.4.png" width="20px" height="20px">景点</a></li>
+                    <li><a href="meishi.html" target="_blank"><img src="../images/1.6.png" width="20px" height="20px">美食</a></li>
+                    <li><a href="gouwu.html" target="_blank"><img src="../images/1.7.png" width="20px" height="20px">购物</a></li>
+                    <li><a href="#d61"><img src="../images/1.8.png" width="20px" height="20px">游记</a></li>
+                </ul>
+            </div>
+            <div class="d15">
+                <input type="text" class="t1" value="输入关键词">
+               <a href="https://www.baidu.com/?tn=48021271_25_hao_pg"><button></button></a> 
+            </div>
+            <div class="d17" id="d17">
+                <ul><li><a href="login.html" target="_blank" id="a1">登录 / 注册</a></li></ul>
+                
+            </div>
+            <script>
+                var url = window.location.href;//获取当前浏览器的url
+                index = url.indexOf("username");
+                if(index !==-1){
+                var index = window.location.href.indexOf("?");
+                index++;
+                var userInfo = window.location.href.substring(index);
+                var uname = userInfo.substring(userInfo.indexOf("=")+ 1);
+                document.getElementById("d17").innerHTML = "<ul><li><a>"+"<img src='images/默认头像.png'>"+uname+"</a></li></ul>";
+                } 
+            </script>
+        </div>
+        <div class="d18">
+            <img src="../images/天下英雄城.png">
+            <a href="#T1"><button>了解更多</button></a>
+        </div>
+    </div>
+    <a name="T1">
+        <div class="d21">
+            <div class="d22"><span class="s23"></span><span class="s24">关于南昌</span><span class="s25"></span></div>
+            <div class="d26">
+                <p>
+                    <span class="d26s0">物华天宝，人杰地灵，天下英雄城</span><br>
+                    南昌是一座具有<span class="d26s1">2200多年历史</span>的文化名城。<br>
+                    自古享有<span class="d26s2">“物华天宝、人杰地灵”</span>的美誉。<br>
+                    南昌还是一座具有<span class="d26s3">革命传统</span>的英雄城。<br>
+                    <span class="d26s4">中国人民解放军在此诞生，八一精神在此铸就。</span><br>
+                    <span class="d26s5">南昌风景如画，环境宜人。赣江从南到北穿城而过，整个城市湖泊错落点缀，郊外青山碧绿。</span>
+                </p>
+            </div>
+        </div>
+    </a>
+    <div class="d31">
+        <p class="p3">著名景点&nbsp;&nbsp;FAMOUS SCENERY</p>
+        <table>
+            <tr>
+                <td><a href="tengwangge.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/滕王阁.jpg" width="350px" height="230px"></div><div class="d34"><span class="s31">滕王阁</span><span class="s32">4.6分</span>1.3w条点评<br>“江南三大名楼”之一</div></div></a></td>
+                <td><a href="bayiguan.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/八一起义纪念馆.jpg" width="350px" height="230px"></div><div class="d34"><span class="s31">八一起义纪念馆</span><span class="s32">4.8分</span>2.4w条点评<br>&nbsp;&nbsp;&nbsp;八一起义的中心</div></div></a></td>
+                <td><a href="bayiguangchang.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/八一广场.jpg" width="350px" height="230px"></div><div class="d34"><span class="s31">八一广场</span><span class="s32">4.8分</span>3.3w条点评<br>&nbsp;&nbsp;&nbsp;“军旗升起的地方”</div></div></a></td>
+                <td><a href="wanshougong.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/万寿宫.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">万寿宫</span><span class="s32">4.2分</span>4.1w条点评<br>&nbsp;&nbsp;&nbsp;富含江右民系的建筑风格和历史文化</div></div></a></td>
+            </tr>
+            <tr>
+                <td><a href="motianlun.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/南昌之星.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">摩天轮</span><span class="s32">4.8分</span>3.6w条点评<br>&nbsp;&nbsp;&nbsp;颇具浪漫气息的地表之一</div></div></a></td>
+                <td><a href="shengjinta.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/绳金塔.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">绳金塔</span><span class="s32">4.5分</span>2.8条点评<br>&nbsp;&nbsp;&nbsp;直视湖山千里道，下窥城郭万人家</div></div></a></td>
+                <td><a href="haihunhouyizhigongyuan.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/海昏侯遗址公园.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">海昏侯遗址公园</span><span class="s32">4.7分</span>1.5w条点评<br>&nbsp;&nbsp;&nbsp;千年侯国  万里海昏</div></div></a></td>
+                <td><a href="qiushuiguangchang.html" target="_blank"><div class="d32"><div class="d33"><img src="../images/秋水广场.jpg"width="350px" height="230px"></div><div class="d34"><span class="s31">秋水广场</span><span class="s32">4.9分</span>1.3w条点评<br>&nbsp;&nbsp;&nbsp;世界第二超级音乐喷泉</div></div></a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="d41">
+        <p>特色美食&nbsp;&nbsp;SPECIALTY FOODS</p>
+        <table>
+            <tr>
+                <td><a href="banfen.html" target="_blank"><div class="d42"><div class="d43"><img src="../images/南昌拌粉2.jpg" width="350px" height="350px"></div><div class="d44"><span class="s41">南昌拌粉</span><div class="d45">南昌拌粉是一道当地知名的风味小吃。其采用沸水煮熟米粉，放入剁椒、酱油、葱花等佐料调拌而成。至今已衍生多种佐料，可随心意放置。</div></div></div></a></td>
+                <td><a href="waguantang.html" target="_blank"><div class="d42"><div class="d43"><img src="../images/瓦罐汤.jpg" width="350px" height="350px"></div><div class="d44"><span class="s41">瓦罐汤</span><div class="d45">瓦罐汤是当地的特色美食，有上千年的历史，已入选非物质文化遗产名录。将装有食材的小瓦罐层层置于巨型瓦罐内，再以木炭恒温煨制六小时以上，方出罐食之。成品营养滋补，香气诱人。 </div></div></div></a></td>
+                <td><a href="baitanggao.html" target="_blank"><div class="d42"><div class="d43"><img src="../images/白糖糕2.jpg" width="350px" height="350px"></div><div class="d44"><span class="s41">白糖糕</span><div class="d45">白糖糕是一种民间的知名传统小吃，起源于明清时期。时至今日，其已荣获了“江西五大传统名点”的美誉，并以清甜软糯的口感而深受食客青睐。 </div> </div></div></a></td>
+                <td><a href="lihaochaolarou.html" target="_blank"><div class="d42"><div class="d43"><img src="../images/藜蒿炒腊肉2.jpg" width="350px" height="350px"></div><div class="d44"><span class="s41">藜蒿炒腊肉</span><div class="d45">藜蒿炒腊肉为南昌的一道名菜。藜蒿产自鄱阳湖，成品口感脆爽，气味醇香清芬，食之令人回味无穷，目前已入选十大赣菜名录。</div> </div></div></a></td>
+            </tr>
+        </table>
+     
+    </div>
+    <div class="d51">
+        <p>购物天堂 SHOPPINH PARADISE</p>
+        <table>
+            <tr>
+                <td><a href="buxingjie.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/步行街.jpg" width="380px" height="260px"></div><div class="d54"><span class="s51">步行街</span><span class="s32">4.4分</span>294条点评<div class="d55">南昌市中心的胜利路，是一个逛街购物休闲的好地方，被南昌当地消费者所认可。一般逛街大多会从中山路一直逛到胜利路步行街。步行街上大大小小的品牌专卖店数量很多，消费价格也不贵。逛街的同时，还能吃到地道的当地美食。</div></div></div></a></td>
+                <td><a href="baisheng.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/百盛.jpg" width="380px" height="260px"></div><div class="d54"><span class="s51">百盛</span><span class="s32">4.8分</span>63条点评<div class="d55">百盛定位于中高档消费群体，提供顾客众多时尚品牌、货品齐全、品质优越、价格合理以及优雅的购物环境，使每位顾客在百盛都能享受到“尽如您意”的优良服务。</div></div></div></a></td>
+                <td><a href="tongluowan.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/T16.jpg" width="380px" height="260px"></div><div class="d54"><span class="s51">南昌铜锣湾T16购物中心</span><span class="s32">4.6分</span>44条点评<div class="d55">T16 Mall汇聚众多轻奢品牌南昌首店及旗舰店，涵盖影院、餐饮、书店、独立设计和生活方式类品牌，将轻奢、中端、快时尚垂直分布，满足不同群体的消费及休闲需求。</div></div></div></a></td>
+            <tr>
+                <td><a href="tianhong.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/天虹.jpg" width="380px" height="260px"></div><div class="d54"><span class="s51">天虹</span><span class="s32">4.8分</span>48条点评<div class="d55">已连续多年入围中国连锁百强企业，拥有全国领先的零售技术研发和运营能力，天虹根据目标顾客需求的不同，以百货、购物中心、超市、便利店四大业态线上线下融合的数字化、体验式新零售，打造以“亲和、信赖、享受生活”为核心价值的品牌。</div></div></div></a></td>
+                <td><a href="wushang.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/武商.jpg" width="380px" height="260px"></div><div class="d54"><span class="s51">武商</span><span class="s32">4.9分</span>76条点评<div class="d55">南昌武商MALL是南昌首家重奢购中心，武商集团联手国际大牌“朋友圈”，首次出征商业“蓝海”江西。</div></div></div></a></td>
+                <td><a href="wandaguangchang.html" target="_blank"><div class="d52"><div class="d53"><img src="../images/万达广场.jpg" width="380px" height="260px"></div><div class="d54"><span class="s51">万达广场</span><span class="s32">4.7分</span>108条点评<div class="d55">万达购物广场是新世纪新南昌标志性商业巨著，商业项目奉行招商先行，开发在后，其“室内商业步行街+世界500强零售巨头”的创新模式，也对南昌市商业的发展起到巨人的推动作用。</div></div></div></a></td>
+            </tr>
+        </table>
+        
+    </div>
+    <a name="d61">
+        <div class="d61">
+            <p class="p2">南昌游记 TRAVELS TO NANCHANG</p>
+            <a href="youji1.html" target="_blank"><div class="d62"><img src="../images/南昌游记1.jpg" width="280px" height="200px"><div class="d621"><span class="s61">南昌：与三五好友的周末小资生活</span><br><img src="../images/头像1.jpg"><span class="s62">肖希泽</span><br><span>工作很忙似乎成为了大部分当代人的“通病”，尤其是对于有一点点小小事业的我来讲。现阶段</span><br><span class="s63">已阅人数：11820人</span></div></div></a>
+            <a href="youji2.html" target="_blank"><div class="d62"><img src="../images/南昌游记2.jpg" width="280px" height="200px"><div class="d621"><span class="s61">火辣南昌中的慢生活，解锁湾里的百变风味</span><br><img src="../images/头像2.jpg"><span class="s62">麻小薯</span><br><span>解锁南昌百变风味开年第一站，我来到江西，一个熟悉得不能再熟悉的地方，往年我会在三月开</span><br><span class="s63">已阅人数：55283人</span></div></div></a>
+            <a href="youji3.html" target="_blank"><div class="d62"><img src="../images/南昌游记3.jpg" width="280px" height="200px"><div class="d621"><span class="s61">南昌湾里三日游攻略，过一个亲子欢乐时光</span><br><img src="../images/头像3.jpg"><span class="s62">胡恩泰</span><br><span>南昌湾里南昌作为江西省会，是一座历史悠久、文化底蕴的城市。当然旅游资源也是特别的丰富</span><br><span class="s63">已阅人数：25659人</span></div></div></a>
+        </div>
+    </a>
+    <div class="d71">&copy;2023 - 现在&nbsp;*** 版权所有 &nbsp;&nbsp;&nbsp;&nbsp;学号：********
+    </div>
+    <script type="text/javascript" src="../js/login2.js"></script>
+</body>
+</html>

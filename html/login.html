@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录界面</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="">
+    <script type="text/javascript" src="../js/login2.js"></script>
+</head>
+<body>
+<div class="container right-panel-active">
+    <!-- 注册 -->
+    <div class="container_form container--signup">
+        <form onsubmit="return validateform( )" name="myform" class="form" id="form1">
+            <h2 class="form_title">注 册</h2>
+            <input type="text" placeholder="User" class="input"  id="username" name="username"/>
+            <input type="email" placeholder="Email" class="input" id="email1" name="email1"/>
+            <input type="password" placeholder="Password" class="input" id="password1" name="password1"/>
+            <input type="password" placeholder="Password2" class="input" id="password2" name="password2"/>
+            <button class="btn">注 册</button>
+        </form>
+    </div>
+
+    <!-- 登录 -->
+    <div class="container_form container--signin">
+        <form onsubmit="return checkEmail2()" name="myform2" class="form" id="form2">
+            <h2 class="form_title">登 录</h2>
+            <input type="email" placeholder="Email" class="input" id="email2" name="email2"/>
+            <input type="password" placeholder="Password" class="input" id="password3" name="password3"/>
+            <a href="#" class="link">忘记密码？</a>
+            <button class="btn" onclick="check1()">登 录</button>
+        </form>
+    </div>
+
+    <!-- 浮层 -->
+    <div class="container_overlay">
+        <div class="overlay">
+            <div class="overlay_panel overlay--left">
+                <button class="btn" id="signIn">登 录</button>
+            </div>
+            <div class="overlay_panel overlay--right">
+                <button class="btn" id="signUp">注 册</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 背景 -->
+<div class="slidershow">
+    <div class="slidershow--image" style="background-image: url('../images/轮播图4.jpg')"></div>
+    <div class="slidershow--image" style="background-image: url('../images/八一广场2.jpg')"></div>
+    <div class="slidershow--image" style="background-image: url('../images/背景2.jpg')"></div>
+    <div class="slidershow--image" style="background-image: url('../images/轮播图21.jpg')"></div>
+</div>
+
+<!-- partial -->
+  <script src="../js/login.js"></script>
+</body>
+</html>
